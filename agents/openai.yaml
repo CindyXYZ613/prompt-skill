@@ -1,0 +1,6 @@
+interface:
+  display_name: "Prompt 智能匹配与延展"
+  short_description: "匹配十二种提问与思考方法，结合上下文延展问题并直接给出更好的回答"
+  default_prompt: "请使用 $prompt-skill 理解我的问题，匹配合适的方法并直接给出增强后的回答。"
+policy:
+  allow_implicit_invocation: true
